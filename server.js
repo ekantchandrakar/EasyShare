@@ -14,7 +14,7 @@ connectDB();
 
 // CORS 
 const corsOptions = {
-    origin: ['http://localhost:3000','http://localhost:5500','http://localhost:3001','http://127.0.0.1:3000','https://ekantchandrakar.github.io/fileShare/']
+    origin: ['http://localhost:3000','http://localhost:5500','http://localhost:3001','http://127.0.0.1:3000','https://ekantchandrakar.github.io/fileShare/','https://ekantchandrakar.github.io']
 }
 
 app.use(cors(corsOptions));
